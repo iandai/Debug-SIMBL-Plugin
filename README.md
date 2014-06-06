@@ -17,7 +17,7 @@ Updated with Xcode 5 version.
 -------
 * Select your project in Xcode 5, then select "Build Phases" tab.
 * From menu, select "Editor" > "Add Build Phase" > "Add Run Script Build Phase".
-* Add following script.
+* Add following script in run script's input field.
 
 ```
 # clean up any previous products/symbolic links in the SIMBL Plugins folder
@@ -38,6 +38,7 @@ fi
 ```
 
 3. Run and Enjoy debugging. 
+-------
 
 
 
