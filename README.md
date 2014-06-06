@@ -11,14 +11,13 @@ Updated with Xcode 5 version.
 -------
 * From menu, select "Project" > "Scheme" > "Edit Scheme" and click.
 * From popout window, select "Run" section, change executable path to your debug application.
-![executable](http://url/to/img.png)
+![executable](https://github.com/iandai/Debug-SIMBL-Plugin/raw/master/img1.png)
 
 2. Add Run Script Build Phase
 -------
 * Select your project in Xcode 5, then select "Build Phases" tab.
 * From menu, select "Editor" > "Add Build Phase" > "Add Run Script Build Phase".
-![Build Phase](http://url/to/img.png)
-
+![Build Phase](https://github.com/iandai/Debug-SIMBL-Plugin/raw/master/img2.png)
 * Add following script in run script's input field.
 
 ```
