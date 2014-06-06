@@ -7,17 +7,17 @@ Because it's written five years ago, Xcode related contents have been outdated.
 Updated with Xcode 5 version.
 
 
-Steps
--------
 1. Change Run executable
-From menu, select "Project" > "Scheme" > "Edit Scheme" and click.
-From popout window, select "Run" section, change executable path to your debug application.
+-------
+* From menu, select "Project" > "Scheme" > "Edit Scheme" and click.
+* From popout window, select "Run" section, change executable path to your debug application.
 
 
 2. Add Run Script Build Phase
-Select your project in Xcode 5, then select "Build Phases" tab.
-From menu, select "Editor" > "Add Build Phase" > "Add Run Script Build Phase".
-Add following script.
+-------
+* Select your project in Xcode 5, then select "Build Phases" tab.
+* From menu, select "Editor" > "Add Build Phase" > "Add Run Script Build Phase".
+* Add following script.
 
 ```
 # clean up any previous products/symbolic links in the SIMBL Plugins folder
@@ -38,3 +38,7 @@ fi
 ```
 
 3. Run and Enjoy debugging. 
+
+
+
+
